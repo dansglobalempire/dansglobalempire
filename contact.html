@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - DANS GLOBAL EMPIRE</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- You can add any additional meta tags or links to external resources here -->
+    <style>
+        .contact-info {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 20px;
+            text-align: center; /* Center align text */
+        }
+
+        .contact-info p {
+            display: block; /* Display as block to ensure two lines */
+            margin: 5px 0; /* Add margin for spacing */
+        }
+        
+        .map-wrapper {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px; /* Add margin to bottom */
+        }
+
+        .map-container {
+            display: flex;
+        }
+
+        .map {
+            margin: 0 60px; /* Adjust margin as needed */
+            flex: 1;
+            border: 1px solid #ccc; /* Add border */
+            padding: 10px; /* Add padding */
+            border-radius: 5px; /* Add border radius */
+        }
+
+        .address {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .map-wrapper {
+                flex-direction: column;
+            }
+        }
+		
+		.logo img {
+            height: 130px; /* Adjust the height of the logo as needed */
+        }
+    </style>
+</head>
+
+<!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon.png">
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="favicon/logo.png" alt="Your Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="products.html">Products/Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-info">
+                <p>Email: <a href="mailto:dansglobalempire@gmail.com">dansglobalempire@gmail.com</a></p>
+                <p>Contact Number: <a href="tel:+60182354566">+6018-2354566</a></p>
+            </div>
+        </div>
+    </section>
+
+    <div class="map-wrapper">
+        <section class="map-container">
+            <div class="map">
+                <h3>Selangor Location</h3>
+                <!-- Embed the map for Selangor here -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.599122641683!2d101.600965!3d2.9408265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMsKwOTAnMzcuNyJTIDEwMcKwMTYnNDQuMCJF!5e0!3m2!1sen!2smy!4v1649712644678!5m2!1sen!2smy" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <div class="address">
+                    <p>No 31 Jalan PP 11/4, 47130 Puchong, Selangor</p>
+                </div>
+            </div>
+            <div class="map">
+                <h3>Kedah Location</h3>
+                <!-- Embed the map for Kedah here -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.5021004182097!2d100.3516148!3d6.1351088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzrCsDU2JzM2LjMiTiAxMDDCsDEwJzMxLjEiRQ!5e0!3m2!1sen!2smy!4v1649713015414!5m2!1sen!2smy" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <div class="address">
+                    <p>Kawasan Perusahaan Mergong, 05150 Alor Setar, Kedah</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="whatsapp-toggle">
+        <a href="https://wa.me/60182354566" target="_blank" class="whatsapp-btn">Chat on WhatsApp</a>
+    </div>
+
+    <!-- Other sections for additional contact information can be added -->
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 DANS GLOBAL EMPIRE. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
